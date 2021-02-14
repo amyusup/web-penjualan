@@ -20,7 +20,7 @@ export default function Penjualan() {
       <Container>
         <div className="shadow-none p-3 mb-5 bg-white rounded mt-5 ">
           <h4 className="text-secondary">Data Penjualan</h4>
-          <Button variant="outline-secondary">Tambah Data Penjualan</Button>
+          {/* <Button variant="outline-secondary">Tambah Data Penjualan</Button> */}
           <Row>
             {penjualan.map((item, index) => {
               return (
@@ -40,7 +40,7 @@ export default function Penjualan() {
                         <div>{item.subtotal}</div>
                       </Col>
                       <Col>
-                        <div>
+                        {/* <div>
                           <img
                             alt="edit"
                             src={`${window.location.origin}/assets/edit.png`}
@@ -55,7 +55,7 @@ export default function Penjualan() {
                             width="25"
                             height="25"
                           />
-                        </div>
+                        </div> */}
                       </Col>
                     </Row>
                   </div>
